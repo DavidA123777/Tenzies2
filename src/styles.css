@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    background-color: #0B2434;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+main{
+background: #F5F5F5;
+padding: 30px 20px;
+max-width: 800px;
+height: 500px;
+margin-left: 600px;
+margin-top: 200px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.title{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 25.6px;
+line-height: 30px;
+
+}
+.text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: -0.03em;
+width: 260px;
+color: #4A4E74;
+}
+
+.dice-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 18px;
+    column-gap: 18px;
+
+}
+.dice{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.81277px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+
+}
+.dice-num{
+    font-size: 2rem;
+}
+.roll-btn{
+
+background: #5035FF;
+box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+border-radius: 3.81277px;
+width: 120px;
+height: 45px;
+border: none;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+color: #FFFFFF;
+cursor: pointer;
+margin-top: 40px;
+margin-left: 100px;
+}
