@@ -1,5 +1,5 @@
 {
-  "homepage": "https://davida123777.github.io/Tenzies2",
+  "homepage": "http://davida123777.github.io/Tenzies2",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
