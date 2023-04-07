@@ -16,30 +16,47 @@ background: #F5F5F5;
 padding: 30px 20px;
 max-width: 800px;
 height: 500px;
-margin-left: 600px;
-margin-top: 200px;
+margin-left: 30%;
+margin-top: 10%;
 border-radius: 5px;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 }
+
+@media (min-width: 1001px) and (max-width: 1400px){
+    
+    main{
+    margin-left: 15%
+    }
+    
+}
+@media (max-width: 1000px){
+    
+    main{
+    margin-left: 5%;
+    width: 90%;
+    }
+    
+    
+}
 .title{
 font-family: 'Karla';
 font-style: normal;
 font-weight: 700;
-font-size: 25.6px;
-line-height: 30px;
+font-size: 3rem;
+line-height: 1.5rem;
 
 }
 .text{
-    font-family: 'Inter';
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 16px;
+font-size: 1.4rem;
+line-height: 1.6rem;
 letter-spacing: -0.03em;
-width: 260px;
+max-width: 400px;
 color: #4A4E74;
 }
 
